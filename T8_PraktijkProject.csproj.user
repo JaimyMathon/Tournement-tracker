@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View\frmAddScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmDashboardWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmExitWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmLoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmMainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmPlayerAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmPlayerUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmPoulesWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmSpelerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmWedstrijdView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\singleMatchFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="View\singlePlayerFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

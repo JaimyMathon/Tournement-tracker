@@ -1,0 +1,204 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\alex_brown.png" />
+    <None Remove="assets\avery_martinez.png" />
+    <None Remove="assets\blake_brouwer.png" />
+    <None Remove="assets\cameron_de_bruin.png" />
+    <None Remove="assets\casey_moore.png" />
+    <None Remove="assets\chris_johnson.png" />
+    <None Remove="assets\dakota_mulder.png" />
+    <None Remove="assets\dylan_anderson.png" />
+    <None Remove="assets\elliot_smit.png" />
+    <None Remove="assets\emerson_janssen.png" />
+    <None Remove="assets\harper_martens.png" />
+    <None Remove="assets\hunter_meijer.png" />
+    <None Remove="assets\img\background.jpg" />
+    <None Remove="assets\img\krans.png" />
+    <None Remove="assets\img\line.png" />
+    <None Remove="assets\img\trophy.png" />
+    <None Remove="assets\img\trophy.webp" />
+    <None Remove="assets\img\UFC_Logo.png" />
+    <None Remove="assets\img\UFC_logo_black.png" />
+    <None Remove="assets\jamie_de_jong.png" />
+    <None Remove="assets\jane_smith.png" />
+    <None Remove="assets\jesse_van_leeuwen.png" />
+    <None Remove="assets\john_doe.png" />
+    <None Remove="assets\jordan_kuipers.png" />
+    <None Remove="assets\jordan_miller.png" />
+    <None Remove="assets\kendall_de_graaf.png" />
+    <None Remove="assets\morgan_wilson.png" />
+    <None Remove="assets\parker_hernandez.png" />
+    <None Remove="assets\pat_de_vries.png" />
+    <None Remove="assets\payton_koster.png" />
+    <None Remove="assets\phoenix_de_vries.png" />
+    <None Remove="assets\quinn_visser.png" />
+    <None Remove="assets\reese_hendriks.png" />
+    <None Remove="assets\riley_bakhuizen.png" />
+    <None Remove="assets\robin_taylor.png" />
+    <None Remove="assets\rowan_van_dijk.png" />
+    <None Remove="assets\sawyer_de_ruiter.png" />
+    <None Remove="assets\skylar_bos.png" />
+    <None Remove="assets\taylor_davis.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\alex_brown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\avery_martinez.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\blake_brouwer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\cameron_de_bruin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\casey_moore.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\chris_johnson.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\dakota_mulder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\dylan_anderson.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\elliot_smit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\emerson_janssen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\harper_martens.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\hunter_meijer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\krans.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\trophy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\trophy.webp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\UFC_Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\img\UFC_logo_black.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\jamie_de_jong.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\jane_smith.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\jesse_van_leeuwen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\john_doe.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\jordan_kuipers.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\jordan_miller.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\kendall_de_graaf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\morgan_wilson.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\parker_hernandez.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\pat_de_vries.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\payton_koster.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\phoenix_de_vries.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\quinn_visser.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\reese_hendriks.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\riley_bakhuizen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\robin_taylor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\rowan_van_dijk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sawyer_de_ruiter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\skylar_bos.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\taylor_davis.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="View\frmWedstrijdRondeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\frmPouleCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NormaAnalyse.orm">
+      <Generator>ORMCustomTool</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
